@@ -10,3 +10,4 @@ use App\Http\Controllers\AdminController;
 // });
 
 Route::get('/users', [UserController::class, 'index']);
+Route::resource('products', ProductController::class);
